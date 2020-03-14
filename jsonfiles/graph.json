@@ -1,0 +1,48 @@
+{"nodes": [
+    {"name": "Towards a Human-like Open-Domain Chatbot", "group": 7}, 
+    {"name": "Sequence to Sequence Learning with Neural Networks", "group": 7594}, 
+    {"name": "ImageNet Classification with Deep Convolutional Neural Networks", "group": 9999}, 
+    {"name": "Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation", "group": 6359}, 
+    {"name": "Untersuchungen zu dynamischen neuronalen Netzen", "group": 379}, 
+    {"name": "Neural Machine Translation by Jointly Learning to Align and Translate", "group": 9153}, 
+    {"name": "Steering Output Style and Topic in Neural Response Generation", "group": 34}, 
+    {"name": "A Persona-Based Neural Conversation Model", "group": 382}, 
+    {"name": "CMU OAQA at TREC 2016 LiveQA: An Attentional Neural Encoder-Decoder Approach for Answer Ranking", "group": 11}, 
+    {"name": "Generating Long and Diverse Responses with Neural Conversation Models", "group": 27}, 
+    {"name": "TweetMotif: Exploratory Search and Topic Summarization for Twitter", "group": 293}, 
+    {"name": "The Curious Case of Neural Text Degeneration", "group": 62}, 
+    {"name": "Diversity-Promoting GAN: A Cross-Entropy Based Generative Adversarial Network for Diversified Text Generation", "group": 21}, 
+    {"name": "Learning to Write with Cooperative Discriminators", "group": 33}, 
+    {"name": "On the Properties of Neural Machine Translation: Encoder-Decoder Approaches", "group": 1830}, 
+    {"name": "Improving Language Understanding by Generative Pre-Training", "group": 757}, 
+    {"name": "Real conversations with artificial intelligence: A comparison between human-human online conversations and human-chatbot conversations", "group": 98}, 
+    {"name": "The Utility and Ubiquity of Taboo Words.", "group": 119}, 
+    {"name": "Virtual research assistants: Replacing human interviewers by automated avatars in virtual worlds", "group": 24}, 
+    {"name": "The role of emotion in computer-mediated communication: A review", "group": 259}, 
+    {"name": "The Development and Psychometric Properties of LIWC2007", "group": 485}], 
+    
+    
+    "links": [
+        {"source": 0, "target": 1}, 
+        {"source": 0, "target": 6}, 
+        {"source": 0, "target": 11}, 
+        {"source": 0, "target": 16}, 
+        {"source": 1, "target": 2}, 
+        {"source": 1, "target": 3}, 
+        {"source": 1, "target": 4}, 
+        {"source": 1, "target": 5}, 
+        {"source": 6, "target": 7}, 
+        {"source": 6, "target": 8}, 
+        {"source": 6, "target": 9}, 
+        {"source": 6, "target": 10}, 
+        {"source": 11, "target": 12}, 
+        {"source": 11, "target": 13}, 
+        {"source": 11, "target": 14}, 
+        {"source": 11, "target": 15}, 
+        {"source": 16, "target": 17}, 
+        {"source": 16, "target": 18}, 
+        {"source": 16, "target": 19}, 
+        {"source": 16, "target": 20}
+    ]
+    
+    }
