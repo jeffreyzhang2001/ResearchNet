@@ -1,6 +1,6 @@
 import igraph as ig
 import json
-
+import math
 loadingdata = 'jsonfiles/graph.json'
 
 data = {}
@@ -20,7 +20,7 @@ labels=[]
 group=[]
 for node in data['nodes']:
     labels.append(node['name'])
-    group.append(node['group']/60)
+    group.append(10*math.log2((node['group'])+5))
 
 layt=G.layout('kk', dim=3)
 
@@ -55,7 +55,7 @@ trace2=go.Scatter3d(x=Xn,
                mode='markers',
                name='papers',
                marker=dict(symbol='circle',
-                             size=10,
+                             size=group,
                              color=group,
                              colorscale='Viridis',
                              line=dict(color='rgb(50,50,50)', width=0.5)
